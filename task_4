@@ -1,0 +1,7 @@
+N = int(input())
+A = float(input())
+Answer = 1
+for i in range(1, N+1):
+    Answer += A**i
+    print(Answer)
+print("The Answer is: " + str(Answer))
